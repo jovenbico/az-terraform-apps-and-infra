@@ -57,3 +57,13 @@ $ terraform workspace new 1-xyz-playground-sandbox
 $ terraform plan
 $ terraform apply -auto-approve -parallelism=3
 ```
+
+## List resources in the state
+```
+$ terraform state list
+data.azurerm_resource_group.storage_account_rg
+azurerm_storage_account.lab
+azurerm_storage_blob.lab
+azurerm_storage_container.lab
+azurerm_storage_share.lab
+```

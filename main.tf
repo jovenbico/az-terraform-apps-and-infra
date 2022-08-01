@@ -17,7 +17,7 @@ provider "azurerm" {
 
 locals {
   rg_name              = "1-4a35c04a-playground-sandbox"
-  storage_account_name = "1-4a35c04a-play"
+  storage_account_name = "14a35c04aplay"
 }
 
 data "azurerm_resource_group" "storage_account_rg" {
